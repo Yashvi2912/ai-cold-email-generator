@@ -80,7 +80,18 @@ export default function ResultsPanel({ results, loading }) {
                       <Text type="secondary" style={{ display: 'block', marginBottom: 8 }}>Key Skills</Text>
                       <div>
                         {results.skills.map(skill => (
-                          <Tag key={skill} color="blue" style={{ marginBottom: 8, padding: '4px 8px', borderRadius: 6, background: 'rgba(22, 119, 255, 0.1)', borderColor: 'rgba(22, 119, 255, 0.2)' }}>
+                          <Tag key={skill} color="blue" style={{ 
+                            marginBottom: 8, 
+                            padding: '4px 8px', 
+                            borderRadius: 6, 
+                            background: 'rgba(22, 119, 255, 0.1)', 
+                            borderColor: 'rgba(22, 119, 255, 0.2)',
+                            whiteSpace: 'normal',
+                            height: 'auto',
+                            display: 'inline-block',
+                            wordBreak: 'break-word',
+                            lineHeight: '1.5'
+                          }}>
                             {skill}
                           </Tag>
                         ))}
