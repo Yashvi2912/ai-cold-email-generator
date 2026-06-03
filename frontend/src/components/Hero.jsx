@@ -15,8 +15,8 @@ export default function Hero() {
           AI Cold Email Generator
         </Title>
         <Paragraph className="hero-subtitle">
-          Generate highly personalized cold emails from job postings in seconds. 
-          Powered by AI, designed for conversion.
+          Turn job postings into winning cold emails in one click.
+          AI-powered email generation tailored to every opportunity.
         </Paragraph>
       </motion.div>
     </div>
