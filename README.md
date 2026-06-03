@@ -14,6 +14,21 @@ An AI-powered application that extracts job details from career pages, matches r
 
 ---
 
+## 📸 Screenshots
+
+### 🏠 Home Page
+![Home Page](screenshots/home-page.png)
+
+### ⚙️ Workflow
+![Workflow](screenshots/workflow.png)
+
+### 📋 Job Details Extraction
+![Job Details](screenshots/job-extraction.png)
+
+### 📧 Generated Email
+![Generated Email](screenshots/generated-email.png)
+
+
 ## ✨ Features
 
 - Extract job details directly from job posting URLs
