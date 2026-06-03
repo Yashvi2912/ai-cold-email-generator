@@ -1,6 +1,7 @@
 import { Typography } from 'antd';
 import { motion } from 'framer-motion';
 
+
 const { Title, Paragraph } = Typography;
 
 export default function Hero() {
