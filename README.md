@@ -151,7 +151,6 @@ VITE_API_URL=http://localhost:8000
 
 ## 🔮 Future Improvements
 
-- One-click email copy
 - Email history
 - CRM integrations
 - LinkedIn integration
