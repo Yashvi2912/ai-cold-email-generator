@@ -48,6 +48,13 @@ class Chain:
 
             Write a professional cold email for the above opportunity.
 
+            Write the email in a {tone} tone, following a {template} style/format.
+
+            Follow these tone-specific guidelines strictly:
+            - If the tone is "Friendly and Approachable": use warm, conversational language, contractions (e.g., "I'd love to" instead of "I would like to"), and avoid stiff corporate phrasing like "mission-critical" or "leverage."
+            - If the tone is "Persuasive / Salesy": use confident, benefit-driven language, emphasize urgency and results, and end with a strong, direct call to action.
+            - If the tone is "Professional": keep language formal, precise, and business-appropriate, without being overly casual or overly aggressive.
+
             Highlight relevant portfolio projects from:
 
             {link_list}
@@ -61,7 +68,9 @@ class Chain:
         res = chain_email.invoke(
             {
                 "job_description": str(job),
-                "link_list": links
+                "link_list": links,
+                "tone": job.get("tone", "Professional"),
+                "template": job.get("template", "Standard Outreach")
             }
         )
 
