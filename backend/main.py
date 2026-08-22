@@ -57,7 +57,7 @@ def startup_event():
         llm = ChatGroq(
             temperature=0,
             groq_api_key=api_key,
-            model="llama-3.3-70b-versatile"
+            model="openai/gpt-oss-120b"
         )
         chain = Chain(llm)
         logger.info("LLM and Chains initialized successfully.")
